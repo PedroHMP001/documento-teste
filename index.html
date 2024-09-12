@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Documento PDF</title>
+    <title>Visualização do PDF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        iframe {
+            width: 80%;
+            height: 600px;
+            border: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bem-vindo ao meu site de PDF!</h1>
-    <p>Clique no link abaixo para acessar o PDF:</p>
-    <a href="Documento-teste.pdf" target="_blank">Acessar o PDF</a>
+    <h1>Visualização do Documento PDF</h1>
+    <iframe src="meu-documento.pdf" title="PDF" frameborder="0"></iframe>
+    <p>Se o PDF não carregar, <a href="Documento-teste.pdf" target="_blank">clique aqui para baixá-lo</a>.</p>
 </body>
 </html>
+
